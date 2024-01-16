@@ -1,6 +1,6 @@
 # 0x00-python_hello_world
 
-Welcome to my directory `_FILE_`
+Welcome to my directory: alx-higher_level_programming/0x00-python_hello_world/
 
 This is my first directory in the repository.
 
