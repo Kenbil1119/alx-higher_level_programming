@@ -11,7 +11,7 @@ This repository contains Python scripts and a C program demonstrating various co
 4. **3-print_alphabt.py**: Prints the alphabet except for certain letters.
 5. **4-print_hexa.py**: Prints all hexadecimal digits.
 6. **5-print_comb2.py**: Prints all possible combinations of two digits.
-7. **6-print_comb3.py**: Prints all possible combinations of three digits.
+7. **6-print_comb3.py**: Prints all possible different combinations of two digits.
 8. **7-islower.py**: Checks if a character is lowercase.
 9. **8-uppercase.py**: Prints a string in uppercase.
 10. **9-print_last_digit.py**: Prints the last digit of a number without a newline.
