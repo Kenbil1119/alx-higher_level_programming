@@ -2,4 +2,6 @@
 
 def islower(c):
 
-    return c >= 'a' and c <= 'z'
+    result = (c >= "a" and c <= "z")
+
+    return result
