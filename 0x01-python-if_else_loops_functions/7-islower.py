@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 
-islower(c)
-{
-}
+def islower(c):
+
+    return c >= 'a' and c <= 'z'
