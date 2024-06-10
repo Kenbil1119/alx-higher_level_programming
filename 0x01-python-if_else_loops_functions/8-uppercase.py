@@ -27,4 +27,4 @@ def uppercase(str):
         # Print by character after each succesfull checkings
         print('{}'.format(char), end='')
     # Print newline
-    print(''.format('\n'))
+    print('')
