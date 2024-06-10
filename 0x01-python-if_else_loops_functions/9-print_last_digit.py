@@ -12,6 +12,7 @@ No newline
 '''
 # Author: Usman Saheed .K
 
+
 def print_last_digit(num):
 
     num = int(num)
