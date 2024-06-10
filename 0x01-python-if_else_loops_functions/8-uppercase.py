@@ -14,11 +14,11 @@ Prototype: def uppercase(str):
 # Author: Usman Saheed .K
 
 
-def uppercase(str):
+def uppercase(string):
 
     dif = ord('a') - ord('A')
     upper_str = ""
-    for char in str:
+    for char in string:
         if 'a' <= char <= 'z':
             upper_str += chr(ord(char) - dif)
         else:
