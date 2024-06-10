@@ -15,6 +15,9 @@ Prototype: def uppercase(str):
 
 def uppercase(str):
 
+    # Empty string to reserve space for uppercase of str
+    upper_str = ""
+
     # Different between Uppercase and Lowercase
     dif = ord("a") - ord("A")
 
@@ -22,9 +25,9 @@ def uppercase(str):
     for char in str:
         # check each characters if it is Lowercase, Hence convert to uppercase using the 'dif' if condition True
         if char >= 'a' and char <= 'z':
-            char = chr(ord(char) - dif)
+            upper_str += (chr(ord(char) - dif))
+        else:
+            upper_str += char
 
-        # Print by character after each succesfull checkings
-        print("{}".format(char), end='')
-    # Print newline
-    print()
+        # Print uppercase version of str
+    print("{}".format(upper_str))
