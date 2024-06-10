@@ -25,6 +25,6 @@ def uppercase(str):
             char = chr(ord(char) - dif)
 
         # Print by character after each succesfull checkings
-        print('{}'.format(char), end='')
+        print("{}".format(char), end='')
     # Print newline
-    print('')
+    print()
