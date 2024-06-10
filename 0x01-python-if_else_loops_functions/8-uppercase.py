@@ -12,7 +12,7 @@ Prototype: def uppercase(str):
 '''
 # Author: Usman Saheed .K
 
-# Define function
+
 def uppercase(str):
 
     # Different between Uppercase and Lowercase
