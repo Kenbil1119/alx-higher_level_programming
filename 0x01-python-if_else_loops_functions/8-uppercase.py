@@ -24,5 +24,5 @@ def uppercase(str):
             list_str.append(str[i])
 
     for i in list_str:
-        print(i, end='')
+        print('{}'.format(i), end='')
     print()
