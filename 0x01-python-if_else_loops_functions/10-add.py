@@ -12,6 +12,4 @@ Prototype: def add(a, b):
 
 def add(a, b):
 
-    print(int(a) + int(b))
-
-    return int(a) + int(b)
+   return  print(int(a) + int(b))
