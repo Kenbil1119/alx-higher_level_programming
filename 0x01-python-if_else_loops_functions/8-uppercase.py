@@ -15,7 +15,7 @@ def uppercase(str):
 
     dif = ord("a") - ord("A")
 
-    list_str = [""]
+    list_str = []
 
     for i in range(len(str)):
         if str[i] >= 'a' and str[i] <= 'z':
@@ -23,6 +23,4 @@ def uppercase(str):
         else:
             list_str.append(str[i])
 
-    for i in list_str:
-        print('{}'.format(i), end='')
-    print()
+    print('{}'.format(''.join(list_str)))
