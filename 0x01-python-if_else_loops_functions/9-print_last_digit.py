@@ -22,4 +22,5 @@ def print_last_digit(num):
     ld = num % 10
 
     print('{}'.format(ld), end='')
+
     return ld
