@@ -10,17 +10,21 @@ Prototype: def uppercase(str):
     Not allowed to use str.upper() and str.isupper()
     Tips: ord()
 '''
+# Author: Usman Saheed .K
 
+# Define function
 def uppercase(str):
 
+    # Different between Uppercase and Lowercase
     dif = ord("a") - ord("A")
 
-    list_str = []
+    # Loop through characters of str
+    for char in str:
+        # check each characters if it is Lowercase, Hence convert to uppercase using the 'dif' if condition True
+        if char >= 'a' and char <= 'z':
+            char = chr(ord(char) - dif)
 
-    for i in range(len(str)):
-        if str[i] >= 'a' and str[i] <= 'z':
-            list_str.append(chr(ord(str[i]) - dif))
-        else:
-            list_str.append(str[i])
-
-    print('{}'.format(''.join(list_str)))
+        # Print by character after each succesfull checkings
+        print('{}'.format(char), end='')
+    # Print newline
+    print()
